@@ -9,7 +9,7 @@ import {
   BoatSails,
   BoatInsideEquipment,
   BoatFeature,
-  // BasicBoatFeature,
+  BasicBoatFeature,
 } from '../popUpContant/types';
 import { getInitialDefaultValue } from '../popUpContant/constant';
 
@@ -43,7 +43,7 @@ export const PopupContainer = () => {
   const [boatBimini, setBoatBimini] = React.useState<BoatFeature | null>();
   // extra
   const [boatDigny, setBoatDigny] = React.useState<BoatFeature | null>();
-  // const [boatYear, setBoatYear] = React.useState<BasicBoatFeature | null>();
+  const [boatYear, setBoatYear] = React.useState<BasicBoatFeature | null>();
 
   const [boatInsideEquipment, setBoatInsideEquipment] = React.useState<BoatInsideEquipment | null>();
   const [dataRetreived, setDataRetreived] = React.useState(false);
